@@ -1060,8 +1060,7 @@
         "dependencies": {
           "EntityLayer": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14",
-          "MyCvProject": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
         },
         "compile": {
           "bin/placeholder/DataAccessLayer.dll": {}
@@ -1073,32 +1072,12 @@
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "MyCvProject": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/EntityLayer.dll": {}
         },
         "runtime": {
           "bin/placeholder/EntityLayer.dll": {}
         }
-      },
-      "MyCvProject/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
-        },
-        "compile": {
-          "bin/placeholder/MyCvProject.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyCvProject.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -2931,11 +2910,6 @@
       "type": "project",
       "path": "../EntityLayer/EntityLayer.csproj",
       "msbuildProject": "../EntityLayer/EntityLayer.csproj"
-    },
-    "MyCvProject/1.0.0": {
-      "type": "project",
-      "path": "../MyCvProject/MyCvProject.csproj",
-      "msbuildProject": "../MyCvProject/MyCvProject.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2945,8 +2919,7 @@
       "Microsoft.EntityFrameworkCore >= 7.0.14",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.14",
-      "MyCvProject >= 1.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.14"
     ]
   },
   "packageFolders": {
@@ -2955,11 +2928,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\onurc\\RiderProjects\\MyCvProject\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\onurc\\source\\repos\\MyCvProject\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\onurc\\RiderProjects\\MyCvProject\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\onurc\\source\\repos\\MyCvProject\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\onurc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\onurc\\RiderProjects\\MyCvProject\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\onurc\\source\\repos\\MyCvProject\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\onurc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2976,14 +2949,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\onurc\\RiderProjects\\MyCvProject\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\onurc\\RiderProjects\\MyCvProject\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\onurc\\source\\repos\\MyCvProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\onurc\\source\\repos\\MyCvProject\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\onurc\\RiderProjects\\MyCvProject\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\onurc\\RiderProjects\\MyCvProject\\EntityLayer\\EntityLayer.csproj"
-            },
-            "C:\\Users\\onurc\\RiderProjects\\MyCvProject\\MyCvProject\\MyCvProject.csproj": {
-              "projectPath": "C:\\Users\\onurc\\RiderProjects\\MyCvProject\\MyCvProject\\MyCvProject.csproj"
+            "C:\\Users\\onurc\\source\\repos\\MyCvProject\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\onurc\\source\\repos\\MyCvProject\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
@@ -3030,20 +3000,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

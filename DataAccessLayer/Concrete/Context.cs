@@ -13,9 +13,10 @@ namespace DataAccessLayer.Concrete
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Author> Author { get; set; }
         public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Bookcase> Bookcases { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Contact> Contact { get; set; }
         public DbSet<Comment> Comment { get; set; }
-        public DbSet<SubscribeMail> SubscribeMails { get; set; }
+        public DbSet<Education> Educations { get; set; }
     }
 }

@@ -22,7 +22,6 @@
   <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
-    <ProjectReference Include="..\MyCvProject\MyCvProject.csproj" />
   </ItemGroup>
 
 </Project>
