@@ -7,32 +7,28 @@ namespace BusinessLayer.Concrete;
 public class ProjectManager : IProjectService
 {
     IProjectDal _projectDal;
-    
-    public ProjectManager()
-    {
-    }
 
-    public void Tadd(Project t)
+    public void TAdd(Project t)
     {
         throw new NotImplementedException();
     }
 
-    public void Tdelete(Project t)
+    public void TDelete(Project t)
     {
         throw new NotImplementedException();
     }
 
-    public void Tupdate(Project t)
+    public void TUpdate(Project t)
     {
         throw new NotImplementedException();
     }
 
-    public List<Project> TgetList()
+    public List<Project> TGetList()
     {
         throw new NotImplementedException();
     }
 
-    public Project TgetById(int id)
+    public Project TGetById(int id)
     {
         throw new NotImplementedException();
     }

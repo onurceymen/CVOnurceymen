@@ -8,26 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\onurc\\.nuget\\packages\\": {}
+    "/Users/onurceymen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\onurc\\source\\repos\\MyCvProject\\EntityLayer\\EntityLayer.csproj",
+      "projectUniqueName": "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/EntityLayer.csproj",
       "projectName": "EntityLayer",
-      "projectPath": "C:\\Users\\onurc\\source\\repos\\MyCvProject\\EntityLayer\\EntityLayer.csproj",
-      "packagesPath": "C:\\Users\\onurc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\onurc\\source\\repos\\MyCvProject\\EntityLayer\\obj\\",
+      "projectPath": "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/EntityLayer.csproj",
+      "packagesPath": "/Users/onurceymen/.nuget/packages/",
+      "outputPath": "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\onurc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/onurceymen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/onurceymen/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }

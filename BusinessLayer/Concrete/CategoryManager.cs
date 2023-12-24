@@ -13,32 +13,27 @@ namespace BusinessLayer.Concrete
     {
         ICategoryDal categoryDal;
 
-
-        public CategoryManager(ICategoryDal categoryDal)
-        {
-            this.categoryDal = categoryDal;
-        }
-        public void Tadd(Category t)
+        public void TAdd(Category t)
         {
             throw new NotImplementedException();
         }
 
-        public void Tdelete(Category t)
+        public void TDelete(Category t)
         {
             throw new NotImplementedException();
         }
 
-        public Category TgetById(int id)
+        public void TUpdate(Category t)
         {
             throw new NotImplementedException();
         }
 
-        public List<Category> TgetList()
+        public List<Category> TGetList()
         {
             throw new NotImplementedException();
         }
 
-        public void Tupdate(Category t)
+        public Category TGetById(int id)
         {
             throw new NotImplementedException();
         }

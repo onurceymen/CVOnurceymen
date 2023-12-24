@@ -13,31 +13,28 @@ namespace BusinessLayer.Concrete
     {
         IAdminDal adminDal;
 
-        public AdminManager(IAdminDal adminDal)
-        {
-            this.adminDal = adminDal;
-        }
-        public void Tadd(Admin t)
+
+        public void TAdd(Admin t)
         {
             throw new NotImplementedException();
         }
 
-        public void Tdelete(Admin t)
+        public void TDelete(Admin t)
         {
             throw new NotImplementedException();
         }
 
-        public Admin TgetById(int id)
+        public void TUpdate(Admin t)
         {
             throw new NotImplementedException();
         }
 
-        public List<Admin> TgetList()
+        public List<Admin> TGetList()
         {
             throw new NotImplementedException();
         }
 
-        public void Tupdate(Admin t)
+        public Admin TGetById(int id)
         {
             throw new NotImplementedException();
         }

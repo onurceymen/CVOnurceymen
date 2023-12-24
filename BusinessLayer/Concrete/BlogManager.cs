@@ -13,32 +13,28 @@ namespace BusinessLayer.Concrete
     {
         IBlogDal blogDal;
 
-        public BlogManager(IBlogDal blogDal)
-        {
-            this.blogDal = blogDal;
-        }
 
-        public void Tadd(Blog t)
+        public void TAdd(Blog t)
         {
             throw new NotImplementedException();
         }
 
-        public void Tdelete(Blog t)
+        public void TDelete(Blog t)
         {
             throw new NotImplementedException();
         }
 
-        public Blog TgetById(int id)
+        public void TUpdate(Blog t)
         {
             throw new NotImplementedException();
         }
 
-        public List<Blog> TgetList()
+        public List<Blog> TGetList()
         {
             throw new NotImplementedException();
         }
 
-        public void Tupdate(Blog t)
+        public Blog TGetById(int id)
         {
             throw new NotImplementedException();
         }

@@ -2,10 +2,10 @@
 {
     public interface IGenericService<T>
     {
-        void Tadd(T t);
-        void Tdelete(T t);
-        void Tupdate(T t);
-        List<T> TgetList();
-        T TgetById(int id);
+        void TAdd(T t);
+        void TDelete(T t);
+        void TUpdate(T t);
+        List<T> TGetList();
+        T TGetById(int id);
     }
 }

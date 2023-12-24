@@ -5,27 +5,27 @@ namespace BusinessLayer.Concrete;
 
 public class BookcaseManager : IBookcaseService
 {
-    public void Tadd(Bookcase t)
+    public void TAdd(Bookcase t)
     {
         throw new NotImplementedException();
     }
 
-    public void Tdelete(Bookcase t)
+    public void TDelete(Bookcase t)
     {
         throw new NotImplementedException();
     }
 
-    public void Tupdate(Bookcase t)
+    public void TUpdate(Bookcase t)
     {
         throw new NotImplementedException();
     }
 
-    public List<Bookcase> TgetList()
+    public List<Bookcase> TGetList()
     {
         throw new NotImplementedException();
     }
 
-    public Bookcase TgetById(int id)
+    public Bookcase TGetById(int id)
     {
         throw new NotImplementedException();
     }

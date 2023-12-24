@@ -8,31 +8,28 @@ namespace BusinessLayer.Concrete
     {
         IAuthorDal authorDal;
 
-        public AuthorManager(IAuthorDal authorDal)
-        {
-            this.authorDal = authorDal;
-        }
-        public void Tadd(Author t)
+
+        public void TAdd(Author t)
         {
             throw new NotImplementedException();
         }
 
-        public void Tdelete(Author t)
+        public void TDelete(Author t)
         {
             throw new NotImplementedException();
         }
 
-        public Author TgetById(int id)
+        public void TUpdate(Author t)
         {
             throw new NotImplementedException();
         }
 
-        public List<Author> TgetList()
+        public List<Author> TGetList()
         {
             throw new NotImplementedException();
         }
 
-        public void Tupdate(Author t)
+        public Author TGetById(int id)
         {
             throw new NotImplementedException();
         }

@@ -7,34 +7,27 @@ namespace BusinessLayer.Concrete
 {
     public class AboutManager : IAboutService
     {
-        IAboutDal aboutdal;
-        Repository<About> repoAbout = new Repository<About>();
-
-        public AboutManager(IAboutDal aboutdal)
-        {
-            this.aboutdal = aboutdal;
-        }
-        public void Tadd(About t)
+        public void TAdd(About t)
         {
             throw new NotImplementedException();
         }
 
-        public void Tdelete(About t)
+        public void TDelete(About t)
         {
             throw new NotImplementedException();
         }
 
-        public About TgetById(int id)
+        public void TUpdate(About t)
         {
             throw new NotImplementedException();
         }
 
-        public List<About> TgetList()
+        public List<About> TGetList()
         {
             throw new NotImplementedException();
         }
 
-        public void Tupdate(About t)
+        public About TGetById(int id)
         {
             throw new NotImplementedException();
         }

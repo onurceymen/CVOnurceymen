@@ -5,10 +5,16 @@ namespace MainLayer.Controllers
 {
     public class EducationController : Controller
     {
-        private readonly IEducationService educationService;
+        private readonly IEducationService _educationService;
+
+        public EducationController(IEducationService educationService)
+        {
+            this._educationService = educationService;
+        }
+
         public IActionResult Index()
         {
-            var values = educationService.TgetList();
+            var values = _educationService.TGetList();
             return View(values);
         }
     }

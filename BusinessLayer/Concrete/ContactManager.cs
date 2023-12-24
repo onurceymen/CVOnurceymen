@@ -8,31 +8,27 @@ namespace BusinessLayer.Concrete
     {
         IContactDal contactDal;
 
-        public ContactManager(IContactDal contactDal)
-        {
-            this.contactDal = contactDal;
-        }
-        public void Tadd(Contact t)
+        public void TAdd(Contact t)
         {
             throw new NotImplementedException();
         }
 
-        public void Tdelete(Contact t)
+        public void TDelete(Contact t)
         {
             throw new NotImplementedException();
         }
 
-        public Contact TgetById(int id)
+        public void TUpdate(Contact t)
         {
             throw new NotImplementedException();
         }
 
-        public List<Contact> TgetList()
+        public List<Contact> TGetList()
         {
             throw new NotImplementedException();
         }
 
-        public void Tupdate(Contact t)
+        public Contact TGetById(int id)
         {
             throw new NotImplementedException();
         }

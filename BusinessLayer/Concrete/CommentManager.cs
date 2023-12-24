@@ -8,31 +8,28 @@ namespace BusinessLayer.Concrete
     public class CommentManager : ICommentService
     {
         ICommentDal commentDal;
-        public CommentManager(ICommentDal commentDal)
-        {
-            this.commentDal = commentDal;
-        }
-        public void Tadd(Comment t)
+
+        public void TAdd(Comment t)
         {
             throw new NotImplementedException();
         }
 
-        public void Tdelete(Comment t)
+        public void TDelete(Comment t)
         {
             throw new NotImplementedException();
         }
 
-        public Comment TgetById(int id)
+        public void TUpdate(Comment t)
         {
             throw new NotImplementedException();
         }
 
-        public List<Comment> TgetList()
+        public List<Comment> TGetList()
         {
             throw new NotImplementedException();
         }
 
-        public void Tupdate(Comment t)
+        public Comment TGetById(int id)
         {
             throw new NotImplementedException();
         }

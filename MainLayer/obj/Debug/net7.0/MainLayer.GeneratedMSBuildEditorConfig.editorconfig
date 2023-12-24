@@ -9,39 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MainLayer
 build_property.RootNamespace = MainLayer
-build_property.ProjectDir = C:\Users\onurc\source\repos\MyCvProject\MainLayer\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = /Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\onurc\source\repos\MyCvProject\MainLayer
+build_property.MSBuildProjectDirectory = /Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/onurc/source/repos/MyCvProject/MainLayer/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/onurc/source/repos/MyCvProject/MainLayer/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Pages/Author/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9yL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/onurc/source/repos/MyCvProject/MainLayer/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Pages/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmxvZy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/onurc/source/repos/MyCvProject/MainLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Pages/Bookcase/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va2Nhc2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/onurc/source/repos/MyCvProject/MainLayer/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Pages/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/onurc/source/repos/MyCvProject/MainLayer/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Pages/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tbWVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/onurc/source/repos/MyCvProject/MainLayer/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-wksmwb7j17
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Pages/Education/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWR1Y2F0aW9uL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Pages/Project/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvamVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurceymen/RiderProjects/CVOnurceymen/MainLayer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hgtmimpvel

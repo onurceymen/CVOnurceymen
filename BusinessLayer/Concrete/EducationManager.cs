@@ -1,31 +1,34 @@
 using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
 using EntityLayer.Concrete;
 
 namespace BusinessLayer.Concrete;
 
 public class EducationManager : IEducationService
 {
-    public void Tadd(Education t)
+    IEducationDal EducationDal;
+
+    public void TAdd(Education t)
     {
         throw new NotImplementedException();
     }
 
-    public void Tdelete(Education t)
+    public void TDelete(Education t)
     {
         throw new NotImplementedException();
     }
 
-    public void Tupdate(Education t)
+    public void TUpdate(Education t)
     {
         throw new NotImplementedException();
     }
 
-    public List<Education> TgetList()
+    public List<Education> TGetList()
     {
         throw new NotImplementedException();
     }
 
-    public Education TgetById(int id)
+    public Education TGetById(int id)
     {
         throw new NotImplementedException();
     }
