@@ -1,42 +1,40 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
 using EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
     public class BlogManager : IBlogService
     {
-        IBlogDal blogDal;
-
-
-        public void TAdd(Blog t)
+        private readonly IBlogDal _blogDal;
+        public BlogManager(IBlogDal blogDal)
         {
-            throw new NotImplementedException();
+            _blogDal = blogDal;
         }
 
-        public void TDelete(Blog t)
+        public void TAdd(Blog blog)
         {
-            throw new NotImplementedException();
+            _blogDal.Insert(blog);
         }
 
-        public void TUpdate(Blog t)
+        public void TDelete(Blog blog)
         {
-            throw new NotImplementedException();
+            _blogDal.Delete(blog);
+        }
+
+        public void TUpdate(Blog blog)
+        {
+            _blogDal.Update(blog);
         }
 
         public List<Blog> TGetList()
         {
-            throw new NotImplementedException();
+            return new List<Blog>();
         }
 
         public Blog TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _blogDal.GetByID(id);
         }
     }
 }

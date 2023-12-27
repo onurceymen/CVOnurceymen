@@ -1,0 +1,44 @@
+@model EntityLayer.Concrete.About
+
+@{
+    ViewBag.Title = "AddAbout";
+    Layout = "_AdminLayout";
+}
+
+<h2>Yeni Hakkımda Bilgisi Ekle</h2>
+
+@using (Html.BeginForm("AdAbout", "AdminAbout", FormMethod.Post))
+{
+    <div class="form-group">
+        <label for="Name">Ad</label>
+        <input type="text" class="form-control" id="Name" name="Name" required>
+    </div>
+    <div class="form-group">
+        <label for="Surname">Soyad</label>
+        <input type="text" class="form-control" id="Surname" name="Surname" required>
+    </div>
+    <div class="form-group">
+        <label for="Content1">Adres</label>
+        <input type="text" class="form-control" id="Content1" name="Content1" required>
+    </div>
+    <div class="form-group">
+        <label for="Content2">Email</label>
+        <input type="email" class="form-control" id="Content2" name="Content2" required>
+    </div>
+    <div class="form-group">
+        <label for="Description">Açıklama</label>
+        <textarea class="form-control" id="Description" name="Description" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="Image1">Resim 1 URL</label>
+        <input type="text" class="form-control" id="Image1" name="Image1" required>
+    </div>
+    <div class="form-group">
+        <label for="Image2">Resim 2 URL</label>
+        <input type="text" class="form-control" id="Image2" name="Image2" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Ekle</button>
+}
+
+<a href="/Areas/AdminAbout/" class="btn btn-secondary">Geri Dön</a>

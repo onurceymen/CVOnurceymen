@@ -1,42 +1,41 @@
 ﻿using BusinessLayer.Abstract;
 using EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataAccessLayer.Abstract;
 
 namespace BusinessLayer.Concrete
 {
     public class AdminManager : IAdminService
     {
-        IAdminDal adminDal;
+       private readonly IAdminDal _adminDal;
 
-
-        public void TAdd(Admin t)
+       public AdminManager(IAdminDal adminDal)
+       {
+           _adminDal = adminDal;
+       }
+       
+       public void TAdd(Admin t)
         {
-            throw new NotImplementedException();
+            _adminDal.Insert(t);
         }
 
         public void TDelete(Admin t)
         {
-            throw new NotImplementedException();
+            _adminDal.Delete(t);
         }
 
         public void TUpdate(Admin t)
         {
-            throw new NotImplementedException();
+            _adminDal.Update(t);
         }
 
         public List<Admin> TGetList()
         {
-            throw new NotImplementedException();
+            return new List<Admin>();
         }
 
         public Admin TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _adminDal.GetByID(id);
         }
     }
 }

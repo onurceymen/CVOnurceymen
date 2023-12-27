@@ -15,7 +15,7 @@ public class ProjectController : Controller
     // GET
     public IActionResult Index()
     {
-        var values = _projectService;
+        var values = _projectService.TGetList();
         return View(values);
     }
 }

@@ -1,0 +1,29 @@
+@model List<EntityLayer.Concrete.Blog>;
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Blog</h2>
+
+    @foreach (var blog in Model)
+    {
+        <div class="card mb-4">
+            <img src="@blog.ImageUrl" class="card-img-top" alt="Blog Image">
+            <div class="card-body">
+                <h5 class="card-title">@blog.Title</h5>
+                <p class="card-text">@blog.Content</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Author: @blog.Author</li>
+                <li class="list-group-item">Category: @blog.Category.Name</li>
+                <li class="list-group-item">Date: @blog.DateTime.ToString("MMMM dd, yyyy")</li>
+            </ul>
+            <div class="card-body">
+                <a href="@Url.Action("Index", "Blog", new { id = blog.BlogID })" class="card-link">Read More</a>
+            </div>
+        </div>
+    }
+</div>

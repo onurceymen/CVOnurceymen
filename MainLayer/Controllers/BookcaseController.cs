@@ -15,7 +15,7 @@ public class BookcaseController : Controller
     // GET
     public IActionResult Index()
     {
-        var values = _bookcaseService;
+        var values = _bookcaseService.TGetList();
         return View(values);
     }
 }

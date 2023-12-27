@@ -1,35 +1,41 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
-using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 
 namespace BusinessLayer.Concrete
 {
     public class AboutManager : IAboutService
     {
+        private readonly IAboutDal _aboutDal;
+
+        public AboutManager(IAboutDal aboutDal)
+        {
+            _aboutDal = aboutDal;
+        }
+
         public void TAdd(About t)
         {
-            throw new NotImplementedException();
+            _aboutDal.Insert(t);
         }
 
         public void TDelete(About t)
         {
-            throw new NotImplementedException();
+            _aboutDal.Delete(t);
         }
 
         public void TUpdate(About t)
         {
-            throw new NotImplementedException();
+            _aboutDal.Update(t);
         }
 
         public List<About> TGetList()
         {
-            throw new NotImplementedException();
+            return new List<About>();
         }
 
         public About TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _aboutDal.GetByID(id);
         }
     }
 }

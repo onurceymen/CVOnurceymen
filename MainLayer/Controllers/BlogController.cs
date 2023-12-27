@@ -15,7 +15,8 @@ public class BlogController : Controller
     // GET
     public IActionResult Index()
     {
-        var values = _blogService;
+        var values  = _blogService.TGetList(); 
         return View(values);
     }
+
 }

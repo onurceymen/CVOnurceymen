@@ -15,7 +15,7 @@ public class CategoryController : Controller
     // GET
     public IActionResult Index()
     {
-        var values = _categoryService;
+        var values = _categoryService.TGetList();
         return View();
     }
 }

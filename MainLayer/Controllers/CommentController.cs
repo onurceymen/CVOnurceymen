@@ -15,7 +15,7 @@ public class CommentController : Controller
     // GET
     public IActionResult Index()
     {
-        var values = _commentService;
+        var values = _commentService.TGetList();
         return View(values);
     }
 }

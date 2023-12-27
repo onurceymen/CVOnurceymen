@@ -1,0 +1,37 @@
+@model List<EntityLayer.Concrete.About>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<h2>Admin About Service</h2>
+<h1>Admin Hakkimda Listesi</h1>
+<table class="table table-bordered">
+    <tr>
+        <td>Hakkımda ID</td>
+        <td>Hakkımda Ad</td>
+        <td>Hakkımda Soyad</td>
+        <td>Hakkımda Adres</td>
+        <td>Hakkımda Email</td>
+        <td>Hakkımda Aciklama</td>
+        <td>Hakkımda Resim</td>
+    </tr>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td>@item.Surname</td>
+            <td>@item.Content1</td>
+            <td>@item.Content2</td>
+            <td>@item.Image1</td>
+            <td>@item.Image2</td>
+            <td><a href="/Areas/AdminAbout/DeleteAbout/@item.ID " class="btn btn-danger">Sil</a></td>
+            <td><a href="/Areas/AdminAbout/UpdateAbout/@item.ID" class="btn btn-success">Güncelle</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a href="Areas/Admin/Views/AdminAbout/AdAbout" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>

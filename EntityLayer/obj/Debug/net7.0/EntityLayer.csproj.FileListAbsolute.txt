@@ -35,7 +35,6 @@ C:/Users/onurc/source/repos/MyCvProject/EntityLayer/obj/Debug/net7.0/EntityLayer
 /Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/bin/Debug/net7.0/EntityLayer.deps.json
 /Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/bin/Debug/net7.0/EntityLayer.dll
 /Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/bin/Debug/net7.0/EntityLayer.pdb
-/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.AssemblyReference.cache
 /Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/Debug/net7.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
 /Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfoInputs.cache
 /Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfo.cs
@@ -44,3 +43,4 @@ C:/Users/onurc/source/repos/MyCvProject/EntityLayer/obj/Debug/net7.0/EntityLayer
 /Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/Debug/net7.0/refint/EntityLayer.dll
 /Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/Debug/net7.0/EntityLayer.pdb
 /Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/Debug/net7.0/ref/EntityLayer.dll
+/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/Debug/net7.0/EntityLayer.sourcelink.json

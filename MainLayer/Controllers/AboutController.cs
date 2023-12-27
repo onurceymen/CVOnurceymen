@@ -1,8 +1,9 @@
 using BusinessLayer.Abstract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MainLayer.Controllers;
-
+[Authorize]
 public class AboutController : Controller
 {
     private readonly IAboutService _aboutService;
@@ -15,8 +16,7 @@ public class AboutController : Controller
     // GET
     public IActionResult Index()
     {
-        var values = _aboutService;
-        
+        var values = _aboutService.TGetList();
         return View(values);
     }
 }

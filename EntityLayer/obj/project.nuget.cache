@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2JyNIKOc1s5Lkul4nMs62WBiV8GKYSqm/vgECilrATNrWgD7cz/glUOcl56XAYYbqLMFHhkhLNhE7f3fm+sdxA==",
+  "dgSpecHash": "E7whl+xl84sW/OfcsGN/S0z/mvB1BzT4oCiTTVrCmWbXOK8ET74nSTEw2DFprbPFOIHIi0ZUUUKN+noVcYccMA==",
   "success": true,
   "projectFilePath": "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/EntityLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/onurceymen/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/onurceymen/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
