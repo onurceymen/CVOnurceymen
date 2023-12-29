@@ -6,5 +6,8 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfCategoryDal : Repository<Category>, ICategoryDal
     {
+        public EfCategoryDal(CvProjectDbContext projectDbContext) : base(projectDbContext)
+        {
+        }
     }
 }

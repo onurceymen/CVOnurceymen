@@ -6,5 +6,7 @@ namespace DataAccessLayer.EntityFramework;
 
 public class EfEducation : Repository<Education>, IEducationDal
 {
-    
+    public EfEducation(CvProjectDbContext projectDbContext) : base(projectDbContext)
+    {
+    }
 }

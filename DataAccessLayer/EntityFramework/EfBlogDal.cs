@@ -6,5 +6,8 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfBlogDal : Repository<Blog>, IBlogDal
     {
+        public EfBlogDal(CvProjectDbContext projectDbContext) : base(projectDbContext)
+        {
+        }
     }
 }

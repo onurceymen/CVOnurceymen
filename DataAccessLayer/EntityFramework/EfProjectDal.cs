@@ -6,5 +6,7 @@ namespace DataAccessLayer.EntityFramework;
 
 public class EfProjectDal : Repository<Project>, IProjectDal
 {
-    
+    public EfProjectDal(CvProjectDbContext projectDbContext) : base(projectDbContext)
+    {
+    }
 }

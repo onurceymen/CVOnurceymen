@@ -27,10 +27,27 @@ namespace BusinessLayer.Concrete
         {
             _aboutDal.Update(t);
         }
+        private void UpdateAboutInDatabase(About about)
+        {
+            var existingAbout = _aboutDal.GetByID(about.ID);
+
+            if (existingAbout != null)
+            {
+                existingAbout.Name = about.Name;
+                existingAbout.Surname = about.Surname;
+                existingAbout.Content1 = about.Content1;
+                existingAbout.Content2 = about.Content2;
+                existingAbout.Image1 = about.Image1;
+                existingAbout.Image2 = about.Image2;
+
+                _aboutDal.Update(existingAbout);
+            }
+        }
 
         public List<About> TGetList()
         {
-            return new List<About>();
+            return _aboutDal.List();
+           //return new List<About>();
         }
 
         public About TGetById(int id)

@@ -1,9 +1,9 @@
 using BusinessLayer.Abstract;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MainLayer.Controllers;
-[Authorize]
 public class AboutController : Controller
 {
     private readonly IAboutService _aboutService;

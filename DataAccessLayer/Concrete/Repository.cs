@@ -6,55 +6,48 @@ namespace DataAccessLayer.Concrete
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-
-        Context c = new Context();
-        DbSet<T> _object;
-        public Repository()
+        private readonly CvProjectDbContext _projectDbContext;
+        public Repository(CvProjectDbContext projectDbContext)
         {
-            _object = c.Set<T>();
-
+            _projectDbContext = projectDbContext;
         }
-
-        public void Delete(T p)
+        public void Delete(T entity)
         {
-            var deleteEntity = c.Entry(p);
-            deleteEntity.State = EntityState.Deleted;
-            c.SaveChanges();
+            _projectDbContext.Set<T>().Remove(entity);
+            _projectDbContext.SaveChanges();
         }
-
-        public T Find(Expression<Func<T, bool>> where)
+        
+        public T Find(Expression<Func<T, bool>> predicate)
         {
-            return _object.FirstOrDefault(where);
+            return _projectDbContext.Set<T>().FirstOrDefault(predicate);
         }
-
+        
         public T GetByID(int id)
         {
-            return _object.Find(id);
+            return _projectDbContext.Set<T>().Find(id);
         }
 
-        public void Insert(T p)
+        public void Insert(T entity)
         {
-            var addedEntity = c.Entry(p);
-            addedEntity.State = EntityState.Added;
-            c.SaveChanges();
+            _projectDbContext.Set<T>().Add(entity);
+            _projectDbContext.SaveChanges();
         }
 
         public List<T> List()
         {
-            return _object.ToList();
-
+            return _projectDbContext.Set<T>().ToList();
         }
-
-        public List<T> List(Expression<Func<T, bool>> where)
+        
+        public List<T> List(Expression<Func<T, bool>> predicate)
         {
-            return _object.Where(where).ToList();
+            return _projectDbContext.Set<T>().Where(predicate).ToList();
         }
-
-        public void Update(T p)
+        
+        public void Update(T entity)
         {
-            var updateEntity = c.Entry(p);
-            updateEntity.State = EntityState.Modified;
-            c.SaveChanges();
+            _projectDbContext.Entry(entity).State = EntityState.Modified;
+            _projectDbContext.SaveChanges();
         }
     }
+
 }

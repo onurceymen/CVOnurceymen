@@ -22,7 +22,7 @@
 	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	  </PackageReference>
 	  <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="7.0.0" />
-	  <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.0" />
+	  <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -32,7 +32,7 @@
 	<ItemGroup>
 	  <Folder Include="Areas\Admin\Data\" />
 	  <Folder Include="Areas\Admin\Models\" />
-	  <Folder Include="Areas\Admin\Views\" />
+	  <Folder Include="Areas\Admin\Pages\" />
 	  <Folder Include="Pages\" />
 	  <Folder Include="Users\" />
 	</ItemGroup>
@@ -2236,6 +2236,13 @@
 	  <AdditionalFiles Include="Views\Comment\Index.cshtml" />
 	  <AdditionalFiles Include="Views\Education\Index.cshtml" />
 	  <AdditionalFiles Include="Views\Project\Index.cshtml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Update="Views\Shared\_AdminLayout.cshtml">
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
 	</ItemGroup>
 
 </Project>

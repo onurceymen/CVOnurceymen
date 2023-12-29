@@ -6,5 +6,8 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfContactDal : Repository<Contact>, IContactDal
     {
+        public EfContactDal(CvProjectDbContext projectDbContext) : base(projectDbContext)
+        {
+        }
     }
 }

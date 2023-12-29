@@ -6,5 +6,8 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfAdminDal : Repository<Admin>, IAdminDal
     {
+        public EfAdminDal(CvProjectDbContext projectDbContext) : base(projectDbContext)
+        {
+        }
     }
 }

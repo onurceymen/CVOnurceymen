@@ -6,5 +6,8 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfCommentDal : Repository<Comment>, ICommentDal
     {
+        public EfCommentDal(CvProjectDbContext projectDbContext) : base(projectDbContext)
+        {
+        }
     }
 }

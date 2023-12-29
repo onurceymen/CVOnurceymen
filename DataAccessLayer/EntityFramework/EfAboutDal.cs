@@ -6,5 +6,8 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfAboutDal : Repository<About>, IAboutDal
     {
+        public EfAboutDal(CvProjectDbContext projectDbContext) : base(projectDbContext)
+        {
+        }
     }
 }

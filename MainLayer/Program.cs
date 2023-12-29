@@ -7,15 +7,18 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MainLayer.Data;
 using Microsoft.AspNetCore.Mvc;
+using DataAccessLayer.Concrete;
 
 var builder = WebApplication.CreateBuilder(args);
+
 var connectionString = builder.Configuration.GetConnectionString("MainLayerContextConnection") ?? throw new InvalidOperationException("Connection string 'MainLayerContextConnection' not found.");
 
 builder.Services.AddDbContext<MainLayerContext>(options => options.UseSqlServer(connectionString));
-
 builder.Services.AddDefaultIdentity<MainLayerUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<MainLayerContext>();
 
-builder.Services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+builder.Services.AddDbContext<CvProjectDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CvProjectDbContext")));
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -50,7 +53,7 @@ app.MapControllerRoute(
 */
 app.MapControllerRoute(
     name: "Areas",
-    pattern: "{area:exists}/{controller=AdminAbout}/{action=Index}/{id?}");
+    pattern: "{area:exists}/{controller=AdminHome}/{action=Index}/{id?}");
 
 app.MapRazorPages();
 
