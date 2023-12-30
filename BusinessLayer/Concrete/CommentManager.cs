@@ -9,6 +9,11 @@ namespace BusinessLayer.Concrete
     {
         ICommentDal commentDal;
 
+        public CommentManager(ICommentDal commentDal)
+        {
+            this.commentDal = commentDal;
+        }
+
         public void TAdd(Comment t)
         {
             throw new NotImplementedException();

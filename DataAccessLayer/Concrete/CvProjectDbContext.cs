@@ -9,12 +9,13 @@ namespace DataAccessLayer.Concrete
         public CvProjectDbContext(DbContextOptions<CvProjectDbContext> options) : base(options)
         {
         }
-        /*
+        
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=localhost; Database=MyCvSystem; User Id=SA;Password=reallyStrongPwd123;Encrypt=true;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=localhost; Database=MyCvSystem; User Id=SA;Password=reallyStrongPwd123;Encrypt=true;TrustServerCertificate=True;");
         }
-        */
+        
         public DbSet<About> Abouts { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Author> Author { get; set; }

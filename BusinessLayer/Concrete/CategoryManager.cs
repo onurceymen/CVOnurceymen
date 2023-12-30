@@ -9,6 +9,11 @@ namespace BusinessLayer.Concrete
     {
         private readonly ICategoryDal _categoryDal;
 
+        public CategoryManager(ICategoryDal categoryDal)
+        {
+            _categoryDal = categoryDal;
+        }
+
         public void TAdd(Category t)
         {
             throw new NotImplementedException();

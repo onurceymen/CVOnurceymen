@@ -8,6 +8,11 @@ public class EducationManager : IEducationService
 {
     IEducationDal EducationDal;
 
+    public EducationManager(IEducationDal educationDal)
+    {
+        EducationDal = educationDal;
+    }
+
     public void TAdd(Education t)
     {
         throw new NotImplementedException();

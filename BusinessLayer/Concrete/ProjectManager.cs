@@ -6,7 +6,12 @@ namespace BusinessLayer.Concrete;
 
 public class ProjectManager : IProjectService
 {
-    IProjectDal _projectDal;
+    private IProjectDal _projectDal;
+
+    public ProjectManager(IProjectDal projectDal)
+    {
+        _projectDal = projectDal;
+    }
 
     public void TAdd(Project t)
     {

@@ -3499,37 +3499,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\onurc\\.nuget\\packages\\": {}
+    "/Users/onurceymen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "/Users/onurceymen/RiderProjects/CVOnurceymen/BusinessLayer/BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\BusinessLayer\\BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\onurc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\BusinessLayer\\obj\\",
+      "projectPath": "/Users/onurceymen/RiderProjects/CVOnurceymen/BusinessLayer/BusinessLayer.csproj",
+      "packagesPath": "/Users/onurceymen/.nuget/packages/",
+      "outputPath": "/Users/onurceymen/RiderProjects/CVOnurceymen/BusinessLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\onurc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/onurceymen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\DataAccessLayer\\DataAccessLayer.csproj"
+            "/Users/onurceymen/RiderProjects/CVOnurceymen/DataAccessLayer/DataAccessLayer.csproj": {
+              "projectPath": "/Users/onurceymen/RiderProjects/CVOnurceymen/DataAccessLayer/DataAccessLayer.csproj"
             },
-            "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\EntityLayer\\EntityLayer.csproj"
+            "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/EntityLayer.csproj": {
+              "projectPath": "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/EntityLayer.csproj"
             }
           }
         }
@@ -3570,12 +3568,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

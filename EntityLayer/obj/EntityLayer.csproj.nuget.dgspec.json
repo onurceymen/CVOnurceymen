@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\EntityLayer\\EntityLayer.csproj": {}
+    "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\EntityLayer\\EntityLayer.csproj": {
+    "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\onurc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\onurc\\source\\repos\\CVOnurceymen\\EntityLayer\\obj\\",
+        "projectPath": "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/EntityLayer.csproj",
+        "packagesPath": "/Users/onurceymen/.nuget/packages/",
+        "outputPath": "/Users/onurceymen/RiderProjects/CVOnurceymen/EntityLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\onurc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/onurceymen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,12 +48,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

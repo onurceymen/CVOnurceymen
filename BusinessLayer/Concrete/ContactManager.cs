@@ -8,6 +8,11 @@ namespace BusinessLayer.Concrete
     {
         IContactDal contactDal;
 
+        public ContactManager(IContactDal contactDal)
+        {
+            this.contactDal = contactDal;
+        }
+
         public void TAdd(Contact t)
         {
             throw new NotImplementedException();

@@ -1,3 +1,0 @@
-﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CDARKPAN_002D1_002E0_002E0_005CLIB_005CBOOTSTRAP_002D5_002E0_002E0_002DDIST/@EntryIndexedValue"></s:String>
-	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CDARKPAN_002D1_002E0_002E0_005CLIB_005CBOOTSTRAP_002D5_002E0_002E0_002DDIST/@EntryIndexedValue">wwwroot\darkpan-1.0.0\lib\bootstrap-5.0.0-dist</s:String></wpf:ResourceDictionary>

@@ -8,6 +8,11 @@ namespace BusinessLayer.Concrete
     {
         IAuthorDal authorDal;
 
+        public AuthorManager(IAuthorDal authorDal)
+        {
+            this.authorDal = authorDal;
+        }
+
 
         public void TAdd(Author t)
         {
