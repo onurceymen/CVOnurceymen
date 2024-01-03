@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace MainProject.Areas.Admin.Controllers;
 
-//[Authorize]
+[Authorize]
 [Area("Admin")]
 public class AdminAboutController : Controller
 {

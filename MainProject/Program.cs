@@ -4,10 +4,20 @@ using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using Microsoft.EntityFrameworkCore;
+using MainProject.Data;
+using MainProject.Areas.Identity.Data;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddDbContext<CvProjectDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CvProjectDbContext")));
+
+builder.Services.AddDbContext<CvProjectDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MainProjectContext")));
+
+
+builder.Services.AddDefaultIdentity<MainProjectUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<MainProjectContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
